@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
+<header th:fragment="top">
     <nav>
         <span>Doctor Secret Service</span>
         <a href="/">Sign In</a>
@@ -28,8 +28,9 @@
     <li><a href="/doctor/?number=13&name=Jodie%20Whittaker">Doctor 13</a></li>
     <li><a href="/doctor/">Unknown Doctor</a></li>
 </ul>
-<footer>
+<footer th:fragment="mouss">
     <ul>
+        <h1>ahmid le boss</h1>
         <li><a href="#">Twitter</a></li>
         <li><a href="#">Facebook</a></li>
         <li><a href="#">TARDIS</a></li>
